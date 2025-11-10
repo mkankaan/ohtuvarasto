@@ -32,7 +32,7 @@ def ota_olut_varastosta(olutta, maara):
 
 
 def olut_getterit(olutta):
-    print("Olut getterit:")
+    print('Olut getterit:')
     print(f"saldo = {olutta.saldo}")
     print(f"tilavuus = {olutta.tilavuus}")
     print(f"paljonko_mahtuu = {olutta.paljonko_mahtuu()}")
@@ -59,4 +59,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+       main()
